@@ -3,6 +3,7 @@ SmalltalkCISpec {
       SCIMetacelloLoadSpec {
           #baseline : 'SMPP',
           #directory : 'mc',
+          #onConflict : #useLoaded,
           #platforms : [ #pharo ]
       }
   ]
